@@ -1,4 +1,4 @@
-namespace Crews.Web.Cipher;
+namespace Crews.Web.Cipher.Html;
 
 public class AElement : HtmlElement { public AElement() : base("a") { } }
 public class AbbrElement : HtmlElement { public AbbrElement() : base("abbr") { } }

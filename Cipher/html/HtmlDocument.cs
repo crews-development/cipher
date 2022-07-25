@@ -1,4 +1,4 @@
-﻿namespace Crews.Web.Cipher;
+﻿namespace Crews.Web.Cipher.Html;
 
 /// <summary>
 /// Represents a complete HTML document.

@@ -1,4 +1,4 @@
-namespace Crews.Web.Cipher;
+namespace Crews.Web.Cipher.Html;
 
 /// <summary>
 /// Represents an HTML element, its attributes, and its child elements.
