@@ -10,12 +10,17 @@ public abstract class HtmlElement
 	/// <summary>
 	/// The child elements contained in this element.
 	/// </summary>
-	public List<HtmlElement> Children => new();
+	public List<HtmlElement> Children { get; set; } = new();
+
+	/// <summary>
+	/// The text content of the element.
+	/// </summary>
+	public string Content { get; set; } = "";
 
 	/// <summary>
 	/// The attributes of the element.
 	/// </summary>
-	public Dictionary<string, string> Attributes => new();
+	public Dictionary<string, string> Attributes { get; set; } = new();
 
 	/// <summary>
 	/// Serializes this element, its attributes, and any children into minified HTML.
@@ -34,7 +39,7 @@ public abstract class HtmlElement
 		string serializedAttributes = string.Join(" ", Attributes.Select(a => serializeAttribute(a)));
 
 		string start = serializedAttributes.Length > 0 ? $"<{_tag} {serializedAttributes}" : $"<{_tag}";
-		string end = serializedChildren.Length > 0 ? $">{serializedChildren}</{_tag}>" : "/>";
+		string end = serializedChildren.Length > 0 || Content.Length > 0 ? $">{Content}{serializedChildren}</{_tag}>" : "/>";
 
 		return start + end;
 	}
