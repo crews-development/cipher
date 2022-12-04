@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Cipher</Title>
+    <Authors>crews-development</Authors>
+    <Description>Programmatic generation of HTML and CSS. Combine with frameworks like Razor to build full stack web applications entirely in C#.</Description>
+    <PackageProjectUrl>www.crews.dev</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/crews-development/cipher</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <SignAssembly>False</SignAssembly>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>
