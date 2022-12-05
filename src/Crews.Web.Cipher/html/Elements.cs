@@ -3,7 +3,7 @@ namespace Crews.Web.Cipher.Html;
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class AElement : HtmlElement
+public class AElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -14,7 +14,7 @@ public class AElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class AbbrElement : HtmlElement
+public class AbbrElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -25,7 +25,7 @@ public class AbbrElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class AddressElement : HtmlElement
+public class AddressElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -36,7 +36,7 @@ public class AddressElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class AreaElement : HtmlElement
+public class AreaElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -47,7 +47,7 @@ public class AreaElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class ArticleElement : HtmlElement
+public class ArticleElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -58,7 +58,7 @@ public class ArticleElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class AsideElement : HtmlElement
+public class AsideElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -69,7 +69,7 @@ public class AsideElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class AudioElement : HtmlElement
+public class AudioElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -80,7 +80,7 @@ public class AudioElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class BElement : HtmlElement
+public class BElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -91,7 +91,7 @@ public class BElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class BaseElement : HtmlElement
+public class BaseElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -102,7 +102,7 @@ public class BaseElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class BdoElement : HtmlElement
+public class BdoElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -113,7 +113,7 @@ public class BdoElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class BlockquoteElement : HtmlElement
+public class BlockquoteElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -124,7 +124,7 @@ public class BlockquoteElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class BodyElement : HtmlElement
+public class BodyElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -135,7 +135,7 @@ public class BodyElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class BrElement : HtmlElement
+public class BrElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -146,7 +146,7 @@ public class BrElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class ButtonElement : HtmlElement
+public class ButtonElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -157,7 +157,7 @@ public class ButtonElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class CanvasElement : HtmlElement
+public class CanvasElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -168,7 +168,7 @@ public class CanvasElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class CaptionElement : HtmlElement
+public class CaptionElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -179,7 +179,7 @@ public class CaptionElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class CiteElement : HtmlElement
+public class CiteElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -190,7 +190,7 @@ public class CiteElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class CodeElement : HtmlElement
+public class CodeElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -201,7 +201,7 @@ public class CodeElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class ColElement : HtmlElement
+public class ColElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -212,7 +212,7 @@ public class ColElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class ColgroupElement : HtmlElement
+public class ColgroupElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -223,7 +223,7 @@ public class ColgroupElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class CommandElement : HtmlElement
+public class CommandElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -234,7 +234,7 @@ public class CommandElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class DatalistElement : HtmlElement
+public class DatalistElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -245,7 +245,7 @@ public class DatalistElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class DdElement : HtmlElement
+public class DdElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -256,7 +256,7 @@ public class DdElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class DelElement : HtmlElement
+public class DelElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -267,7 +267,7 @@ public class DelElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class DetailsElement : HtmlElement
+public class DetailsElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -278,7 +278,7 @@ public class DetailsElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class DfnElement : HtmlElement
+public class DfnElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -289,7 +289,7 @@ public class DfnElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class DivElement : HtmlElement
+public class DivElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -300,7 +300,7 @@ public class DivElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class DlElement : HtmlElement
+public class DlElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -311,7 +311,7 @@ public class DlElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class DtElement : HtmlElement
+public class DtElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -322,7 +322,7 @@ public class DtElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class EmElement : HtmlElement
+public class EmElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -333,7 +333,7 @@ public class EmElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class EmbedElement : HtmlElement
+public class EmbedElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -344,7 +344,7 @@ public class EmbedElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class FieldsetElement : HtmlElement
+public class FieldsetElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -355,7 +355,7 @@ public class FieldsetElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class FigcaptionElement : HtmlElement
+public class FigcaptionElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -366,7 +366,7 @@ public class FigcaptionElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class FigureElement : HtmlElement
+public class FigureElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -377,7 +377,7 @@ public class FigureElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class FooterElement : HtmlElement
+public class FooterElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -388,7 +388,7 @@ public class FooterElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class FormElement : HtmlElement
+public class FormElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -399,7 +399,7 @@ public class FormElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class H1Element : HtmlElement
+public class H1Element : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -410,7 +410,7 @@ public class H1Element : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class H2Element : HtmlElement
+public class H2Element : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -421,7 +421,7 @@ public class H2Element : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class H3Element : HtmlElement
+public class H3Element : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -432,7 +432,7 @@ public class H3Element : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class H4Element : HtmlElement
+public class H4Element : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -443,7 +443,7 @@ public class H4Element : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class H5Element : HtmlElement
+public class H5Element : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -454,7 +454,7 @@ public class H5Element : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class H6Element : HtmlElement
+public class H6Element : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -465,7 +465,7 @@ public class H6Element : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class HeadElement : HtmlElement
+public class HeadElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -476,7 +476,7 @@ public class HeadElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class HeaderElement : HtmlElement
+public class HeaderElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -487,7 +487,7 @@ public class HeaderElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class HrElement : HtmlElement
+public class HrElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -498,7 +498,7 @@ public class HrElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class IElement : HtmlElement
+public class IElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -509,7 +509,7 @@ public class IElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class IframeElement : HtmlElement
+public class IframeElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -520,7 +520,7 @@ public class IframeElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class ImgElement : HtmlElement
+public class ImgElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -531,7 +531,7 @@ public class ImgElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class InputElement : HtmlElement
+public class InputElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -542,7 +542,7 @@ public class InputElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class InsElement : HtmlElement
+public class InsElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -553,7 +553,7 @@ public class InsElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class KbdElement : HtmlElement
+public class KbdElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -564,7 +564,7 @@ public class KbdElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class LabelElement : HtmlElement
+public class LabelElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -575,7 +575,7 @@ public class LabelElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class LegendElement : HtmlElement
+public class LegendElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -586,7 +586,7 @@ public class LegendElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class LiElement : HtmlElement
+public class LiElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -597,7 +597,7 @@ public class LiElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class LinkElement : HtmlElement
+public class LinkElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -608,7 +608,7 @@ public class LinkElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class MapElement : HtmlElement
+public class MapElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -619,7 +619,7 @@ public class MapElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class MarkElement : HtmlElement
+public class MarkElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -630,7 +630,7 @@ public class MarkElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class MenuElement : HtmlElement
+public class MenuElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -641,7 +641,7 @@ public class MenuElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class MetaElement : HtmlElement
+public class MetaElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -652,7 +652,7 @@ public class MetaElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class MeterElement : HtmlElement
+public class MeterElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -663,7 +663,7 @@ public class MeterElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class NavElement : HtmlElement
+public class NavElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -674,7 +674,7 @@ public class NavElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class NoscriptElement : HtmlElement
+public class NoscriptElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -685,7 +685,7 @@ public class NoscriptElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class ObjectElement : HtmlElement
+public class ObjectElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -696,7 +696,7 @@ public class ObjectElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class OlElement : HtmlElement
+public class OlElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -707,7 +707,7 @@ public class OlElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class OptgroupElement : HtmlElement
+public class OptgroupElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -718,7 +718,7 @@ public class OptgroupElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class OptionElement : HtmlElement
+public class OptionElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -729,7 +729,7 @@ public class OptionElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class OutputElement : HtmlElement
+public class OutputElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -740,7 +740,7 @@ public class OutputElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class PElement : HtmlElement
+public class PElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -751,7 +751,7 @@ public class PElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class ParamElement : HtmlElement
+public class ParamElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -762,7 +762,7 @@ public class ParamElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class PreElement : HtmlElement
+public class PreElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -773,7 +773,7 @@ public class PreElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class ProgressElement : HtmlElement
+public class ProgressElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -784,7 +784,7 @@ public class ProgressElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class QElement : HtmlElement
+public class QElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -795,7 +795,7 @@ public class QElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class RpElement : HtmlElement
+public class RpElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -806,7 +806,7 @@ public class RpElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class RtElement : HtmlElement
+public class RtElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -817,7 +817,7 @@ public class RtElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class RubyElement : HtmlElement
+public class RubyElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -828,7 +828,7 @@ public class RubyElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class SElement : HtmlElement
+public class SElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -839,7 +839,7 @@ public class SElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class SampElement : HtmlElement
+public class SampElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -850,7 +850,7 @@ public class SampElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class ScriptElement : HtmlElement
+public class ScriptElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -861,7 +861,7 @@ public class ScriptElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class SectionElement : HtmlElement
+public class SectionElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -872,7 +872,7 @@ public class SectionElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class SelectElement : HtmlElement
+public class SelectElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -883,7 +883,7 @@ public class SelectElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class SmallElement : HtmlElement
+public class SmallElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -894,7 +894,7 @@ public class SmallElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class SourceElement : HtmlElement
+public class SourceElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -905,7 +905,7 @@ public class SourceElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class SpanElement : HtmlElement
+public class SpanElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -916,7 +916,7 @@ public class SpanElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class StrongElement : HtmlElement
+public class StrongElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -927,7 +927,7 @@ public class StrongElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class StyleElement : HtmlElement
+public class StyleElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -938,7 +938,7 @@ public class StyleElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class SubElement : HtmlElement
+public class SubElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -949,7 +949,7 @@ public class SubElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class SupElement : HtmlElement
+public class SupElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -960,7 +960,7 @@ public class SupElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class TableElement : HtmlElement
+public class TableElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -971,7 +971,7 @@ public class TableElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class TbodyElement : HtmlElement
+public class TbodyElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -982,7 +982,7 @@ public class TbodyElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class TdElement : HtmlElement
+public class TdElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -993,7 +993,7 @@ public class TdElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class TextareaElement : HtmlElement
+public class TextareaElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1004,7 +1004,7 @@ public class TextareaElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class TfootElement : HtmlElement
+public class TfootElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1015,7 +1015,7 @@ public class TfootElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class ThElement : HtmlElement
+public class ThElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1026,7 +1026,7 @@ public class ThElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class TheadElement : HtmlElement
+public class TheadElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1037,7 +1037,7 @@ public class TheadElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class TimeElement : HtmlElement
+public class TimeElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1048,7 +1048,7 @@ public class TimeElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class TitleElement : HtmlElement
+public class TitleElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1059,7 +1059,7 @@ public class TitleElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class TrElement : HtmlElement
+public class TrElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1070,7 +1070,7 @@ public class TrElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class TrackElement : HtmlElement
+public class TrackElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1081,7 +1081,7 @@ public class TrackElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class UElement : HtmlElement
+public class UElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1092,7 +1092,7 @@ public class UElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class UlElement : HtmlElement
+public class UlElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1103,7 +1103,7 @@ public class UlElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class VarElement : HtmlElement
+public class VarElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1114,7 +1114,7 @@ public class VarElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class VideoElement : HtmlElement
+public class VideoElement : Element
 {
 	/// <summary>
 	/// Element constructor.
@@ -1125,7 +1125,7 @@ public class VideoElement : HtmlElement
 /// <summary>
 /// A standard HTML5 element.
 /// </summary>
-public class WbrElement : HtmlElement
+public class WbrElement : Element
 {
 	/// <summary>
 	/// Element constructor.
