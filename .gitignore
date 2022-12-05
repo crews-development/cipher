@@ -9,3 +9,6 @@ obj/
 
 # Other VS generated things
 .vs/
+
+# Mac stuff
+.DS_Store
