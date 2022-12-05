@@ -3,7 +3,7 @@ namespace Crews.Web.Cipher.Css;
 /// <summary>
 /// Represents a CSS media query.
 /// </summary>
-public class CssMediaQuery : CssRuleNestedAtRule
+public class MediaQuery : RuleNestedAtRule
 {
 	/// <summary>
 	/// The conditions of the query.
@@ -14,6 +14,6 @@ public class CssMediaQuery : CssRuleNestedAtRule
 	/// The query constructor.
 	/// </summary>
 	/// <param name="conditionSets">Conditions of the query. For example: "screen", "min-width: 1250px"</param>
-	public CssMediaQuery(params string[] conditionSets)
+	public MediaQuery(params string[] conditionSets)
 		: base($"media " + string.Join(",", conditionSets)) { }
 }

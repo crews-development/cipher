@@ -3,7 +3,7 @@ namespace Crews.Web.Cipher.Css;
 /// <summary>
 /// Represents a single declaration of a CSS rule.
 /// </summary>
-public class CssDeclaration
+public class Declaration
 {
 	/// <summary>
 	/// The property defining the declaration.
@@ -20,7 +20,7 @@ public class CssDeclaration
 	/// </summary>
 	/// <param name="property">The property deining the declaration.</param>
 	/// <param name="value">The value of the declaration. If null, 'unset' is used.</param>
-	public CssDeclaration(string property, string? value = null)
+	public Declaration(string property, string? value = null)
 	{
 		Property = property;
 		Value = value ?? "unset";

@@ -3,32 +3,32 @@ namespace Crews.Web.Cipher.Css;
 /// <summary>
 /// Represents a standard CSS rule.
 /// </summary>
-public class CssRule
+public class Rule
 {
 	/// <summary>
 	/// The selectors of the rule.
 	/// </summary>
-	public IEnumerable<CssSelector> Selectors { get; set; }
+	public IEnumerable<Selector> Selectors { get; set; }
 
 	/// <summary>
 	/// The rule's declarations.
 	/// </summary>
-	public IEnumerable<CssDeclaration> Declarations { get; set; }
+	public IEnumerable<Declaration> Declarations { get; set; }
 
 	/// <summary>
 	/// Creates a new CssRule instance.
 	/// </summary>
 	/// <param name="selector">A CSS selector.</param>
 	/// <param name="declarations">A set of CSS declarations.</param>
-	public CssRule(CssSelector selector, IEnumerable<CssDeclaration> declarations)
-		: this(new List<CssSelector> { selector }, declarations) { }
+	public Rule(Selector selector, IEnumerable<Declaration> declarations)
+		: this(new List<Selector> { selector }, declarations) { }
 
 	/// <summary>
 	/// Creates a new CssRule instance.
 	/// </summary>
 	/// <param name="selectors">A set of CSS selectors.</param>
 	/// <param name="declarations">A set of CSS declarations.</param>
-	public CssRule(IEnumerable<CssSelector> selectors, IEnumerable<CssDeclaration> declarations)
+	public Rule(IEnumerable<Selector> selectors, IEnumerable<Declaration> declarations)
 	{
 		Selectors = selectors;
 		Declarations = declarations;

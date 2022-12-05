@@ -3,12 +3,12 @@
 /// <summary>
 /// Represents a complete HTML document.
 /// </summary>
-public class HtmlDocument : HtmlElement
+public class Document : Element
 {
 	/// <summary>
 	/// Document constructor.
 	/// </summary>
-	public HtmlDocument() : base("html") { }
+	public Document() : base("html") { }
 
 	/// <summary>
 	/// Serializes all child elements, automatically wrapping them in an html tag and prepending the DOCTYPE.

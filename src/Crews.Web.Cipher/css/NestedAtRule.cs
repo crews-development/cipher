@@ -3,7 +3,7 @@ namespace Crews.Web.Cipher.Css;
 /// <summary>
 /// Represents a CSS at-rule nested within another at-rule.
 /// </summary>
-public class CssNestedAtRule : CssAtRule
+public class NestedAtRule : AtRule
 {
 	/// <summary>
 	/// The content of the rule.
@@ -14,7 +14,7 @@ public class CssNestedAtRule : CssAtRule
 	/// Rule constructor.
 	/// </summary>
 	/// <param name="name">The name of the rule.</param>
-	public CssNestedAtRule(string name) : base(name) { }
+	public NestedAtRule(string name) : base(name) { }
 
 	/// <summary>
 	/// Converts this nested rule to its CSS-compatible string representation.

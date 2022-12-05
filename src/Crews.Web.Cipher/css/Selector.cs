@@ -3,7 +3,7 @@ namespace Crews.Web.Cipher.Css;
 /// <summary>
 /// Represents a single selector for a CSS rule.
 /// </summary>
-public class CssSelector
+public class Selector
 {
 	/// <summary>
 	/// The tag, element, or class of the selector.
@@ -26,7 +26,7 @@ public class CssSelector
 	/// <param name="baseSelector">The tag, element, or class of the selector.</param>
 	/// <param name="pseudoClass">The pseudo class of the selector.</param>
 	/// <param name="pseudoElement">The pseudo element of the selector.</param>
-	public CssSelector(string baseSelector, string? pseudoClass = null, string? pseudoElement = null)
+	public Selector(string baseSelector, string? pseudoClass = null, string? pseudoElement = null)
 	{
 		BaseSelector = baseSelector;
 		PseudoClass = pseudoClass;

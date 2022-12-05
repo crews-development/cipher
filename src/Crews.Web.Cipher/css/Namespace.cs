@@ -3,11 +3,11 @@ namespace Crews.Web.Cipher.Css;
 /// <summary>
 /// Represents a CSS namespace.
 /// </summary>
-public class CssNamespace : CssAtRule
+public class Namespace : AtRule
 {
 	/// <summary>
 	/// Namespace constructor.
 	/// </summary>
 	/// <param name="ns">The name of the namespace.</param>
-	public CssNamespace(string ns) : base($"namespace {ns};") { }
+	public Namespace(string ns) : base($"namespace {ns};") { }
 }

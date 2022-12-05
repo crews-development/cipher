@@ -3,14 +3,14 @@ namespace Crews.Web.Cipher.Html;
 /// <summary>
 /// Represents an HTML element, its attributes, and its child elements.
 /// </summary>
-public abstract class HtmlElement
+public abstract class Element
 {
-	private string _tag;
+	private readonly string _tag;
 
 	/// <summary>
 	/// The child elements contained in this element.
 	/// </summary>
-	public List<HtmlElement> Children { get; set; } = new();
+	public List<Element> Children { get; set; } = new();
 
 	/// <summary>
 	/// The text content of the element.
@@ -31,7 +31,7 @@ public abstract class HtmlElement
 	/// Creates a new HtmlElement with the given tag name.
 	/// </summary>
 	/// <param name="tag">The name of the element.</param>
-	public HtmlElement(string tag) => _tag = tag;
+	public Element(string tag) => _tag = tag;
 
 	private string Serialize()
 	{
