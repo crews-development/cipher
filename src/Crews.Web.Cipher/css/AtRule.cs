@@ -3,7 +3,7 @@ namespace Crews.Web.Cipher.Css;
 /// <summary>
 /// Base class for a CSS 'at-rule'.
 /// </summary>
-public abstract class CssAtRule
+public abstract class AtRule
 {
 	/// <summary>
 	/// The name of the rule.
@@ -14,7 +14,7 @@ public abstract class CssAtRule
 	/// Rule constructor.
 	/// </summary>
 	/// <param name="name">The name of the rule.</param>
-	public CssAtRule(string name) => _name = name;
+	public AtRule(string name) => _name = name;
 
 	/// <summary>
 	/// Converts this rule to its CSS-compatible string representation.
