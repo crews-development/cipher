@@ -1,4 +1,4 @@
-﻿namespace Crews.Web.Cipher.Css;
+﻿namespace Crews.Web.Cipher.Css.Selectors;
 
 /// <summary>
 /// A CSS selector combination that uses the adjacent sibling combinator (+).

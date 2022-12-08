@@ -1,4 +1,4 @@
-namespace Crews.Web.Cipher.Css;
+namespace Crews.Web.Cipher.Css.Selectors;
 
 /// <summary>
 /// Represents a single selector for a CSS rule.
