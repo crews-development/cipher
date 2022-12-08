@@ -19,7 +19,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <ProjectReference Include="../Cipher/Crews.Web.Cipher.csproj" />
+    <ProjectReference Include="../../src/Crews.Web.Cipher/Crews.Web.Cipher.csproj" />
   </ItemGroup>
 
 </Project>

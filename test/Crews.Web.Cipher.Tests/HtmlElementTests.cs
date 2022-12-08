@@ -7,7 +7,7 @@ public class HtmlElementTests
 	{
 		string expected = "<!DOCTYPE html><html><body><h1>Test</h1><p>This is a test.</p></body></html>";
 
-		HtmlDocument document = new();
+		Document document = new();
 		BodyElement body = new();
 		H1Element h1 = new();
 		PElement p = new();
