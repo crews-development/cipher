@@ -16,4 +16,15 @@
 		<Version>1.1.0</Version>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <None Remove="Extensions\" />
+	  <None Remove="Microsoft.AspNetCore" />
+	  <None Remove="Microsoft.AspNetCore.Html.Abstractions" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Extensions\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.2.0" />
+	</ItemGroup>
 </Project>
