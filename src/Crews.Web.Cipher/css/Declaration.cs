@@ -18,7 +18,7 @@ public class Declaration
 	/// <summary>
 	/// Creates a new CssDeclaration instance.
 	/// </summary>
-	/// <param name="property">The property deining the declaration.</param>
+	/// <param name="property">The property defining the declaration.</param>
 	/// <param name="value">The value of the declaration. If null, 'unset' is used.</param>
 	public Declaration(string property, string? value = null)
 	{
