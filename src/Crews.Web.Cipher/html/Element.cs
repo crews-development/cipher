@@ -1,3 +1,5 @@
+using System;
+
 namespace Crews.Web.Cipher.Html;
 
 /// <summary>
@@ -36,20 +38,11 @@ public abstract class Element
 	private string Serialize()
 	{
 		string serializedChildren = string.Join("", Children.Select(c => c.ToString()));
-		string serializedAttributes = string.Join(" ", Attributes.Select(a => SerializeAttribute(a)));
+		string serializedAttributes = string.Join(" ", Attributes.Select(a => $"{a.Key}=\"{a.Value}\""));
 
 		string start = serializedAttributes.Length > 0 ? $"<{_tag} {serializedAttributes}" : $"<{_tag}";
 		string end = serializedChildren.Length > 0 || Content.Length > 0 ? $">{Content}{serializedChildren}</{_tag}>" : "/>";
 
 		return start + end;
-	}
-
-	private static string SerializeAttribute(KeyValuePair<string, string> attribute)
-	{
-		// Check if value contains any characters that need quotes.
-		bool needsQuotes = attribute.Value.IndexOfAny(new char[] { ' ', '"', '\'', '<', '>', '=', '`' }) != -1;
-		string safeValue = needsQuotes ? $"\"{attribute.Value}" : attribute.Value;
-
-		return $"{attribute.Key}={safeValue}";
 	}
 }
